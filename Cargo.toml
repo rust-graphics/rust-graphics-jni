@@ -1,0 +1,16 @@
+[package]
+name = "rust_graphics_jni"
+version = "0.1.0"
+authors = ["Hossein Noroozpour <hossein.noroozpour@gmail.com>"]
+description = "A simple, small and minimal jni library"
+repository = "https://github.com/rust-graphics/rust-graphics-jni"
+license = "MIT"
+readme = "README.md"
+keywords = ["ffi", "java", "jni", "api-bindings"]
+categories = ["api-bindings"]
+
+[dependencies]
+
+[features]
+debug_derive = []
+verbose_log = []
