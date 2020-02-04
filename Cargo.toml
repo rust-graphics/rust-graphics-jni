@@ -1,5 +1,5 @@
 [package]
-name = "rust_graphics_jni"
+name = "rust-graphics-jni"
 version = "0.1.0"
 authors = ["Hossein Noroozpour <hossein.noroozpour@gmail.com>"]
 description = "A simple, small and minimal jni library"
@@ -13,4 +13,4 @@ categories = ["api-bindings"]
 
 [features]
 debug_derive = []
-verbose_log = []
+verbose_log = ["debug_derive"]
