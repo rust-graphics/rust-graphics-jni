@@ -12,5 +12,5 @@ categories = ["api-bindings"]
 [dependencies]
 
 [features]
-debug_derive = []
-verbose_log = ["debug_derive"]
+debug-derive = []
+verbose-log = ["debug-derive"]
